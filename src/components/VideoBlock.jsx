@@ -18,7 +18,7 @@ function VideoBlock({ data, isLoading }) {
         </div>
         <div className="movie-details-content">
           <h2>{data.original_title}</h2>
-          {data.genres.length > 0 && (
+          {data.genres && data.genres.length > 0 && (
             <div className="banner-meta">
               <ul>
                 <li className="category">
