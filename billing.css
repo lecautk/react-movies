@@ -1,0 +1,129 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.overall {
+    margin: auto;
+    width: auto;
+    padding: 5px;
+}
+
+.left-size {
+    position: absolute;
+    left: 0px;
+    width: 50%;
+    padding: 5px;
+    margin: 5px;
+}
+
+.right-size {
+    position: absolute;
+    right: 0px;
+    width: 50%;
+    padding: 5px;
+    margin: 5px;
+}
+
+.center {
+    margin: 7px;
+}
+
+.container{
+    margin: 0px auto;
+}
+
+.big-table{
+    margin: 0px auto;
+}
+
+.table {
+    float: left;
+    background-color: #2196F3;
+    color: black;
+    width: 150px;
+    line-height: 150px;
+    text-align: center;
+    margin: 2px;
+    border-radius: 5px;
+    
+}
+
+.table:hover{
+    cursor: pointer;
+    background-color: bisque;
+    color: red;
+    
+}
+
+.right-up{
+    font-size: 20px;
+}
+
+.btn{
+    width: 100%;
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: #a0dfe2;
+    color: #330000;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.money-tb{
+    width: 100%;
+    margin: 0px auto;
+}
+
+.money-th{
+    width: 500px;
+    padding: 5px;
+    margin: 0px auto;
+}
+
+.money-td{
+    text-align: center;
+    padding: 1px;
+    margin: 0px auto;
+    font-size: 18px;
+}
+
+.time{
+    font-size: 30px;
+    color: red;
+}
+
+.time:hover{
+    cursor: pointer;
+    color: aqua;
+}
+
+.btn-left{
+    position: absolute;
+    left: 100px;
+    width: 25%;
+    padding: 10px;
+    margin: 15px;
+}
+
+.btn-right{
+    position: absolute;
+    right: 100px;
+    width: 25%;
+    padding: 10px;
+    margin: 15px;
+}
+
+.btn-right:hover{
+    background-color: crimson;
+    color: aliceblue;
+}
+
+.btn-left:hover{
+    background-color: crimson;
+    color: aliceblue;
+}
